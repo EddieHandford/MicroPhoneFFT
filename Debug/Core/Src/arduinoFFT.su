@@ -1,0 +1,20 @@
+std_abs.h:70:3:constexpr double std::abs(double)	16	static
+arduinoFFT.cpp:24:1:arduinoFFT::arduinoFFT()	16	static
+arduinoFFT.cpp:29:1:arduinoFFT::arduinoFFT(double*, double*, uint16_t, double)	40	static
+arduinoFFT.cpp:38:1:arduinoFFT::~arduinoFFT()	16	static
+arduinoFFT.cpp:43:9:uint8_t arduinoFFT::Revision()	16	static
+arduinoFFT.cpp:48:6:void arduinoFFT::Compute(double*, double*, uint16_t, uint8_t)	32	static
+arduinoFFT.cpp:54:6:void arduinoFFT::Compute(uint8_t)	112	static
+arduinoFFT.cpp:118:6:void arduinoFFT::Compute(double*, double*, uint16_t, uint8_t, uint8_t)	120	static
+arduinoFFT.cpp:183:6:void arduinoFFT::ComplexToMagnitude()	40	static
+arduinoFFT.cpp:190:6:void arduinoFFT::ComplexToMagnitude(double*, double*, uint16_t)	48	static
+arduinoFFT.cpp:198:6:void arduinoFFT::DCRemoval()	40	static
+arduinoFFT.cpp:214:6:void arduinoFFT::DCRemoval(double*, uint16_t)	48	static
+arduinoFFT.cpp:231:6:void arduinoFFT::Windowing(uint8_t, uint8_t)	72	static
+arduinoFFT.cpp:288:6:void arduinoFFT::Windowing(double*, uint16_t, uint8_t, uint8_t)	80	static
+arduinoFFT.cpp:345:8:double arduinoFFT::MajorPeak()	64	static
+arduinoFFT.cpp:367:6:void arduinoFFT::MajorPeak(double*, double*)	72	static
+arduinoFFT.cpp:394:8:double arduinoFFT::MajorPeak(double*, uint16_t, double)	80	static
+arduinoFFT.cpp:417:6:void arduinoFFT::MajorPeak(double*, uint16_t, double, double*, double*)	80	static
+arduinoFFT.cpp:446:9:uint8_t arduinoFFT::Exponent(uint16_t)	24	static
+arduinoFFT.cpp:457:6:void arduinoFFT::Swap(double*, double*)	32	static
