@@ -29,7 +29,11 @@
 #define SCL_TIME 0x01
 #define SCL_FREQUENCY 0x02
 #define SCL_PLOT 0x03
+<<<<<<< HEAD
 #define silly comment 1994
+=======
+#define HELLO EDDIE
+>>>>>>> master
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -68,7 +72,7 @@ void PrintVector(double * , uint16_t , uint8_t );
 arduinoFFT FFT = arduinoFFT(); /* Create FFT object */
 
 const uint16_t samples = 128; //This value MUST ALWAYS be a power of 2
-const double signalFrequency = 500;
+const double signalFrequency = 1000;
 const double samplingFrequency = 5000;
 const uint8_t amplitude = 100;
 
@@ -133,6 +137,9 @@ int main(void)
 	  {
 	    vReal[i] = int8_t((amplitude * (sin((i * (twoPi * cycles)) / samples))) / 2.0);
 	    vImag[i] = 0.0; //Imaginary part must be zeroed in case of looping to avoid wrong calculations and overflows
+
+
+
 	  }
 
 
