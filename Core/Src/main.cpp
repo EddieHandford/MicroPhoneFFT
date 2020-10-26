@@ -133,6 +133,9 @@ int main(void)
 	  {
 	    vReal[i] = int8_t((amplitude * (sin((i * (twoPi * cycles)) / samples))) / 2.0);
 	    vImag[i] = 0.0; //Imaginary part must be zeroed in case of looping to avoid wrong calculations and overflows
+
+
+
 	  }
 
 
