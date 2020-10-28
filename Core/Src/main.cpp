@@ -30,7 +30,7 @@
 #define SCL_FREQUENCY 0x02
 #define SCL_PLOT 0x03
 
-#define New Comment
+#define Comment 1
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
